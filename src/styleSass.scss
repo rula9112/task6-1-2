@@ -1,0 +1,31 @@
+/********** color ******/
+$Red : #ab3550;
+ ///////////// font size//////////////////
+$primerySize: 1rem;
+
+
+ nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    a{
+        color: $Red !important;
+        letter-spacing:0.$primerySize; 
+        font-size: $primerySize;
+
+        text-transform: uppercase;
+    }
+ }
+ ////////////////////Header /////////////////
+  .Header{
+    header{
+        background: url("../../assets/background.png") cover no-repeat;
+        width: 100%;
+        text-align: left;
+        height: 400px;
+        overflow: hidden;
+        color: #ab3550;
+    }
+
+  }

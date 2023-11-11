@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Fragment } from "react";
+import Home from "./Component/HomePage/Home";
+import Navs from "./Component/Navs";
+import Header from "./Component/HomePage/Header";
+import Slider from "./Sliader/Slider";
+
+
+function App()
+{
+    return(
+   <>
+     <Slider />     
+      </>
+)
 }
-
 export default App;

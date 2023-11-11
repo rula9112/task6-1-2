@@ -1,0 +1,9 @@
+header {
+  background: url("./assets/background.png") cover no-repeat;
+  width: 100%;
+  text-align: left;
+  height: 400px;
+  overflow: hidden;
+  color: #ab3550 !important; 
+}
+/*# sourceMappingURL=styleSass.css.map */
